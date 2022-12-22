@@ -26,7 +26,9 @@
 
 ## Getting Start
 
-- TBD -
+[0] (optional) `pip install --upgrade pip` (`pip3 install --upgrade pip`)
+
+[1] `pip install -r requirements.txt` (`pip3 install -r requirements.txt`)
 
 <br>
 
