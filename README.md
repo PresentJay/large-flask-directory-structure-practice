@@ -10,3 +10,31 @@ and has those `objectives`
 
 - [ ] make dummy modules like large flask applications
 - [ ] make dockerfile
+
+<br>
+
+## Prerequisite
+
+| Environment   | Tested Version |
+| ------------- | -------------- |
+| docker Engine | v20.10.11      |
+| Git           | 2.35.3         |
+| Python        | 3.9.6          |
+
+<br>
+
+## Getting Start
+
+- TBD -
+
+<br>
+
+## commit convention
+
+> Commit convention: [`Udacity Commit Message Convention`](https://udacity.github.io/git-styleguide/)
+
+<br>
+
+## ❤️ Contributing
+
+[![](/CONTRIBUTORS.svg)](https://github.com/PresentJay/large-flask-directory-structure-practice/graphs/contributors)
