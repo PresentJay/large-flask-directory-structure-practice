@@ -1,0 +1,3 @@
+- A local `Python 3` programming environment, which you can set up by following the tutorial for your distribution in How To Install and Set Up a Local Programming Environment for Python 3 series.
+- An understanding of `basic Flask concepts`, such as routes, view functions, and templates.
+- An understanding of basic Flask-SQLAlchemy concepts, such as `setting up a database`, `creating database models`, and `inserting data into the database`.
