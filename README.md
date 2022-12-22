@@ -10,6 +10,7 @@
 
 - [ ] make dummy modules like large flask applications
 - [ ] make dockerfile
+- [ ] serve openAPI
 
 <br>
 
