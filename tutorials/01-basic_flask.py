@@ -4,6 +4,7 @@ from flask import Flask, abort
 
 app = Flask(__name__)
 
+
 # 여러 라우트를 결합 가능
 @app.route("/")
 @app.route("/index/")
