@@ -1,3 +1,5 @@
+#!/bin/bash
+
 logKill() {
   echo >&2 "[ERROR] $@" && exit 1
 }
@@ -19,7 +21,9 @@ __TARGET__=$(ls tutorials | grep $__INDEX__)
 __APP__="--app tutorials/$__TARGET__"
 __RUN__="python3 -m flask"
 __DEBUG__="--debug"
+__BIND__="--host=0.0.0.0"
+__PORT__="--port=5000"
 
 checkPrerequisite "$__RUN__ --help $__APP__"
 
-$__RUN__ $__APP__ $__DEBUG__ run
+$__RUN__ $__APP__ $__DEBUG__ run $__BIND__ $__PORT__
