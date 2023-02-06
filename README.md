@@ -26,9 +26,9 @@
 
 ## Getting Start
 
-[0] (optional) `pip install --upgrade pip` (`pip3 install --upgrade pip`)
-
-[1] `pip install -r requirements.txt` (`pip3 install -r requirements.txt`)
+[0] modify `.env` from `.env-example`. if you modify PARAM, tutorial will be changed.
+[1] docker-compose up -d
+[2] http://localhost:5000 (if you meet port issue, set APP_PORT variable into `.env`)
 
 <br>
 
