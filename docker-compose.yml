@@ -7,7 +7,7 @@ services:
     ports:
       - ${APP_PORT:-5000}:5000
     volumes:
-      - ./:${WORKING_DIR:-/app/}
+      - .:${WORKING_DIR:-/app/}
     entrypoint: [ "/bin/sh" ]
     env_file:
       - .env

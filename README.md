@@ -24,11 +24,19 @@
 
 <br>
 
-## Getting Start
+## Getting Start (docker)
 
 1. modify `.env` from `.env-example`. if you modify PARAM, tutorial will be changed.
 2. docker-compose up -d
 3. http://localhost:5000 (if you meet port issue, set APP_PORT variable into `.env`)
+
+<br>
+
+## Getting Start (python)
+
+1. pip3 install -r requirements.txt
+1. bash run.sh [tutorial number (ex. 01, 02 ...)]
+   --> bash run.sh 01
 
 <br>
 
